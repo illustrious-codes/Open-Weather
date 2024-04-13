@@ -1,10 +1,12 @@
 "use strict";
 const container = document.querySelector(".container");
-const search = document.querySelector(".search-box");
+const search = document.querySelector(".search-box button");
 const weatherBox = document.querySelector(".weather-box");
 const weatherDetails = document.querySelector(".weather-details");
 
 search.addEventListener("click", () => {
+  // const APIkey = "2010251720eb765c7d83c69a8a6f408f";
+
   const APIkey = "2010251720eb765c7d83c69a8a6f408f";
   const city = document.querySelector(".search-box input").value;
   if (city == "") return;
