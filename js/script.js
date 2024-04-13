@@ -47,9 +47,9 @@ search.addEventListener("click", () => {
         weatherDetails.classList.add("active");
         error.classList.remove("active");
 
-        setTimeout(() => {
-          container.classList.remove("active");
-        }, 2500);
+        // setTimeout(() => {
+        //   container.classList.remove("active");
+        // }, 2500);
 
         switch (json.weather[0].main) {
           case "Clear":
